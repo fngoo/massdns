@@ -1,5 +1,3 @@
 #!/bin/bash
 
-DIR=$(dirname "$0")
-
-wget -O- https://public-dns.info/nameservers.txt > "$DIR/../lists/public-dns.txt"
+wget -O- https://public-dns.info/nameservers.txt > "/root/script/0_subdomain/massdns/lists/public-dns.txt"
